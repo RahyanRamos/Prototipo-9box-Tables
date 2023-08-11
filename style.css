@@ -1,3 +1,14 @@
+:root{
+    --green-box: #009934;
+    --green-head: #009934;
+    --green-data: #1bac45;
+    --green-datap: #1bac45;
+    --green-person: #35bf57;
+    --green-scroll: #6ae579;
+    --green-scroll: #009934;
+    --green-hover: #1bac45;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -33,16 +44,16 @@ body {
     background-color: #82afb6;
     z-index: 1;
     width: 300px;
+    height: 60px;
 }
 
 .title {
     font-size: 18px;
     font-weight: bold;
     text-align: left;
-    margin: 5px;
+    margin: 0 5px;
     width: 180px;
     height: 15px;
-    border-radius: 10px;
     padding-left: 5px;
 }
 
