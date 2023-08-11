@@ -78,10 +78,12 @@ body {
 
 .box::-webkit-scrollbar {
     width: 12px;
+    border-radius: 20px;
 }
   
 .box::-webkit-scrollbar-track {
     background: #e6ffff;
+    border-radius: 20px;
 }
   
 .box::-webkit-scrollbar-thumb {
