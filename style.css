@@ -16,7 +16,7 @@ body {
     background-color: #82afb6;
     border-radius: 8px;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 1);
-    width: 300px;
+    width: 310px;
     max-height: 200px;
     min-height: 200px;
     overflow: auto;
@@ -33,7 +33,7 @@ body {
     top: 0;
     background-color: #82afb6;
     z-index: 1;
-    width: 300px;
+    width: 310px;
     height: 60px;
 }
 
@@ -42,7 +42,7 @@ body {
     font-weight: bold;
     text-align: left;
     margin: 0 5px;
-    width: 180px;
+    width: auto;
     height: 15px;
     padding-left: 5px;
 }
