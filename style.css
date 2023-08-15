@@ -15,7 +15,8 @@ body {
 .box-blue,
 .box-yellow,
 .box-green,
-.box-orange{
+.box-orange,
+.box-red{
     margin: 10px 10px;
     border-radius: 8px;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 1);
@@ -44,10 +45,15 @@ body {
     background-color: #fabe57;
 }
 
+.box-red{
+    background-color: #ea7658;
+}
+
 .header-blue,
 .header-yellow,
 .header-green,
-.header-orange{
+.header-orange,
+.header-red{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -74,10 +80,15 @@ body {
     background-color: #fabe57;
 }
 
+.header-red{
+    background-color: #ea7658;
+}
+
 .title-blue,
 .title-yellow,
 .title-green,
-.title-orange{
+.title-orange,
+.title-red{
     font-size: 18px;
     font-weight: bold;
     text-align: left;
@@ -104,10 +115,15 @@ body {
     color: #492100;
 }
 
+.title-red{
+    color: #410000;
+}
+
 .data-blue,
 .data-yellow,
 .data-green,
-.data-orange{
+.data-orange,
+.data-red{
     font-size: 14px;
     font-weight: bold;
     color: #000;
@@ -139,10 +155,16 @@ body {
     color: #492100;
 }
 
+.data-red{
+    background-color: #f1a483; 
+    color: #410000;
+}
+
 .datap-blue,
 .datap-yellow,
 .datap-green,
-.datap-orange{
+.datap-orange,
+.datap-red{
     font-size: 14px;
     font-weight: bold;
     color: #000;
@@ -174,6 +196,11 @@ body {
     color: #492100;
 }
 
+.datap-red{
+    background-color: #f1a483; 
+    color: #410000;
+}
+
 .tb {
     width: 100%;
     border-collapse: collapse;
@@ -184,7 +211,8 @@ body {
 .tb-person-blue td,
 .tb-person-yellow td,
 .tb-person-green td,
-.tb-person-orange td{
+.tb-person-orange td,
+.tb-person-red td{
     padding: 5px 5px;
     border-radius: 5px;
 }
@@ -205,9 +233,15 @@ body {
     background-color: #fde99a;
 }
 
+.tb-person-red td{
+    background-color: #f8d1ae;
+}
+
 .tb-person-blue:last-child td,
 .tb-person-yellow:last-child td,
-.tb-person-green:last-child td{
+.tb-person-green:last-child td,
+.tb-person-orange:last-child td,
+.tb-person-red:last-child td{
     border-bottom: none;
 }
 
@@ -257,4 +291,36 @@ body {
     background-color: #002100;
     border-radius: 20px;
     border: 3px solid #afffaf;
+}
+
+.box-orange::-webkit-scrollbar {
+    width: 12px;
+    border-radius: 20px;
+}
+  
+.box-orange::-webkit-scrollbar-track {
+    background: #f8cda9;
+    border-radius: 20px;
+}
+  
+.box-orange::-webkit-scrollbar-thumb {
+    background-color: #492100;
+    border-radius: 20px;
+    border: 3px solid #f8cda9;
+}
+
+.box-red::-webkit-scrollbar {
+    width: 12px;
+    border-radius: 20px;
+}
+  
+.box-red::-webkit-scrollbar-track {
+    background: #fcbcbc;
+    border-radius: 20px;
+}
+  
+.box-red::-webkit-scrollbar-thumb {
+    background-color: #410000;
+    border-radius: 20px;
+    border: 3px solid #fcbcbc;
 }
