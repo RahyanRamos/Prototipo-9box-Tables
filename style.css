@@ -26,7 +26,7 @@ body{
     margin: 10px 10px;
     border-radius: 8px;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 1);
-    width: 310px;
+    width: 100%;
     max-height: 200px;
     min-height: 200px;
     overflow: auto;
@@ -48,10 +48,6 @@ body{
     position: absolute;
     display: none;
     flex-direction: row;
-    width: 1px;
-    max-height: 1px;
-    min-height: 1px;
-    position: absolute;
     z-index: -1;
     border-radius: 8px;
 }
@@ -74,39 +70,39 @@ body{
     top: 650px;
 }
 
-.box-info1{
+.box-info1 .desc{
     background-color: #f3ffb0;
 }
 
-.box-info2{
+.box-info2 .desc{
     background-color: #d0ffbf;
 }
 
-.box-info3{
+.box-info3 .desc{
     background-color: #c6f0ff;
 }
 
-.box-info4{
+.box-info4 .desc{
     background-color: #fff3c4;
 }
 
-.box-info5{
+.box-info5 .desc{
     background-color: #f3ffb0;
 }
 
-.box-info6{
+.box-info6 .desc{
     background-color: #d0ffbf;
 }
 
-.box-info7{
+.box-info7 .desc{
     background-color: #ffe6d0;
 }
 
-.box-info8{
+.box-info8 .desc{
     background-color: #fff3c4;
 }
 
-.box-info9{
+.box-info9 .desc{
     background-color: #f3ffb0;
 }
 
@@ -135,40 +131,58 @@ body{
     border-top-right-radius: 0px;
 }
 
-.box-yellow:hover + .box-info1{
-    min-height: 310px;
+.box-yellow:hover + .box-info1 .desc{
+    min-height: max-content;
+    padding: 5px;
+    border-radius: 8px;
 }
 
-.box-green:hover + .box-info2{
-    min-height: 200px;
+.box-green:hover + .box-info2 .desc{
+    min-height: max-content;
+    padding: 5px;
+    border-radius: 8px;
 }
 
-.box-blue:hover + .box-info3{
-    min-height: 200px;
+.box-blue:hover + .box-info3 .desc{
+    min-height: max-content;
+    padding: 5px;
+    border-radius: 8px;
 }
 
-.box-orange:hover + .box-info4{
-    min-height: 240px;
+.box-orange:hover + .box-info4 .desc{
+    min-height: max-content;
+    padding: 5px;
+    border-radius: 8px;
 }
 
-.box-yellow:hover + .box-info5{
-    min-height: 200px;
+.box-yellow:hover + .box-info5 .desc{
+    min-height: max-content;
+    padding: 5px;
+    border-radius: 8px;
 }
 
-.box-green:hover + .box-info6{
-    min-height: 310px;
+.box-green:hover + .box-info6 .desc{
+    min-height: max-content;
+    padding: 5px;
+    border-radius: 8px;
 }
 
-.box-red:hover + .box-info7{
-    min-height: 310px;
+.box-red:hover + .box-info7 .desc{
+    min-height: max-content;
+    padding: 5px;
+    border-radius: 8px;
 }
 
-.box-orange:hover + .box-info8{
-    min-height: 240px;
+.box-orange:hover + .box-info8 .desc{
+    min-height: max-content;
+    padding: 5px;
+    border-radius: 8px;
 }
 
-.box-yellow:hover + .box-info9{
-    min-height: 370px;
+.box-yellow:hover + .box-info9 .desc{
+    min-height: max-content;
+    padding: 5px;
+    border-radius: 8px;
 }
 
 .box-info1 .titSig,
